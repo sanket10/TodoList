@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/add_new_item"
+        android:orderInCategory="100"
+        android:title="add"
+        android:icon="@drawable/add_item"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>

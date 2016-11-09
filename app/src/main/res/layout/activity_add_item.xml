@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightPink"
+    tools:context="com.example.sanket.todolist.AddItem">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/add_item_toolbar"
+        android:layout_height="60dip"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Add New Item"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp">
+        </TextView>
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Item's Title"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/title_heading"
+        android:layout_below="@+id/main_toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_title"
+        android:textSize="20dp"
+        android:layout_below="@+id/title_heading"
+        android:layout_marginTop="15dp"
+        android:layout_alignEnd="@+id/title_heading"
+        android:layout_alignStart="@+id/title_heading" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Item's Detail"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/detail_heading"
+        android:layout_below="@+id/item_title"
+        android:layout_alignStart="@+id/item_title"
+        android:layout_marginTop="25dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_detail"
+        android:textSize="20dp"
+        android:layout_below="@+id/detail_heading"
+        android:layout_alignEnd="@+id/detail_heading"
+        android:layout_alignStart="@+id/detail_heading"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD ITEM"
+        android:textSize="20dp"
+        android:padding="15dp"
+        android:background="@color/colorAccent"
+        android:id="@+id/add_item_button"
+        android:layout_below="@+id/item_detail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp" />
+
+</RelativeLayout>

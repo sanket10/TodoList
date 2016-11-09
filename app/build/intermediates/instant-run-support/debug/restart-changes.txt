@@ -1,0 +1,5 @@
+CHANGED,C:\Users\Happy\Desktop\IIIT Delhi\Mobile Computing\09_RecyclerView\Todolist\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\example\sanket\todolist\MainActivity$TodoListAdapter.class
+CHANGED,C:\Users\Happy\Desktop\IIIT Delhi\Mobile Computing\09_RecyclerView\Todolist\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\example\sanket\todolist\MainActivity$TodoListAdapter$TodoListViewHolder$2.class
+CHANGED,C:\Users\Happy\Desktop\IIIT Delhi\Mobile Computing\09_RecyclerView\Todolist\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\example\sanket\todolist\SwipeDetailAdapter.class
+CHANGED,C:\Users\Happy\Desktop\IIIT Delhi\Mobile Computing\09_RecyclerView\Todolist\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\example\sanket\todolist\MainActivity$TodoListAdapter$TodoListViewHolder.class
+CHANGED,C:\Users\Happy\Desktop\IIIT Delhi\Mobile Computing\09_RecyclerView\Todolist\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\com\example\sanket\todolist\MainActivity$TodoListAdapter$TodoListViewHolder$3.class
